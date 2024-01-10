@@ -1,0 +1,75 @@
+
+
+.github-logo{
+    height: 32px;
+  }
+  
+  .navbarWrapper {
+    border: 2px solid black;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .grid-container-navbar {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto 30% 18%  auto auto;
+    justify-content:space-evenly;
+    align-content: center;
+  }
+  
+  .grid-items-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .grid-items-navbar input{
+   width: 100%;
+  }
+  
+  .navbar-list-buttons{
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .nav-arrow{
+    margin-top: 29px;
+    cursor: pointer;
+  }
+  .navbar-buttons{
+    font-size: 16px;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 37px;
+  }
+  .navbar-buttons:hover{
+    border: 1px solid white;
+    border-radius:5px ;
+  }
+  
+  .navbar-search{
+    background-color: #283041;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    text-align:start;
+    color: white;
+    height: 37px;
+  
+   
+  }
+  ::placeholder{
+    color: white;
+  }
+  
+  .nav-link{
+    margin-top:15px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  

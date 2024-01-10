@@ -1,0 +1,36 @@
+.github-actions-section{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #151C21;
+    border-radius: 10px;
+    border: 0.5px solid white;
+  }
+
+  @media  only Screen and (max-width:760px) {
+    .github-actions-section{
+        grid-template-columns: auto;
+    }
+  }
+  
+  .action-image{
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 157px; */
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .actions-image{
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 19px;
+  }
+  
+  .action-text{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+    padding: 10px;
+    width: 100%;
+  }

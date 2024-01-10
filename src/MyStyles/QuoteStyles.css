@@ -1,0 +1,177 @@
+body{
+    background-color: #0D1015;
+    color: rgb(155, 155, 155);
+    position: sticky;
+  }
+  
+  .search-button{
+    margin-right: 12px;
+  }
+  .quoteBody{
+    margin-left: 16vw;
+    margin-top: 20vh;
+    background-color: black;
+  }
+  
+  .quote-heading{
+    font-size: 100px;
+    color: white;
+    
+  }
+  
+  .quote-btn{
+    border-radius: 0;
+    margin-left: -7px;
+    border: 0.5px solid black;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left:none;
+    background-color: rgb(113, 23, 209);
+  }
+  .quote-search{
+    border: 0.5px solid black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color:  rgb(222, 217, 217);;
+  }
+  
+  
+  .quote-body{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 1%;
+    margin-top:8%;
+    background: black;
+  
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color:black;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color:transparent;
+    border: none;
+    padding: 5px;
+    font-size: 30px;
+    text-align: start;
+    margin-bottom: 7%;
+  }
+  
+  .signUp-quote{
+    display: flex;
+  }
+  
+  .clients{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+  
+  /* clients media query */
+  @media only screen and (max-width: 960px) {
+    .clients{
+      display: grid;
+      grid-template-columns: auto auto auto ;
+  }
+  
+  @media screen and (max-width:770px){
+    .clients{
+      display: grid;
+      grid-template-columns: auto auto ;
+  }
+  }
+  
+  }
+  
+  .client-items{
+    text-align: center;
+    
+  }
+  /* 
+  .clients h2{
+    font-weight: 900;
+    color: rgb(207, 210, 212);
+    font-family: Arial, Helvetica, sans-serif;
+  } */
+  
+  .productivity-h3{
+    color: green;
+    font-size: 64px;
+  }
+  
+  .productivity-h3-2{
+    color: white;
+    font-size: 64px;
+   }
+  
+   .python-source-code{
+    width: 95%;
+    border-radius: 22px;
+   }
+   strong{
+    color: white;
+   }
+  
+   .explore-github{
+    background: black;
+    border: none;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+   }
+  
+   .didyouknow{
+    color: green;
+    border: 2px solid green;
+    padding: 8px;
+    border-radius: 60px;
+    font-size: 12px;
+    font-weight: 700;
+    background: transparent;
+  
+   }
+
+   .github-report-desc{
+    font-size: 25px;
+   }
+ 
+  
+  body{
+    background-image: url("/public/bodyBackground.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 164%;
+    background-position-y:3%;
+  }
+  
+  .quote-body ,.grid-container, .client-items , .quote-heading ,.sign-in-out-quote ,.clients-section {
+    background-color: transparent;
+    border: none;
+  }
+  .grid-item ,.clients-section{
+    color: white;
+  }
+  
+  .letsbuild , .emptydiv{
+    background: transparent;
+    border: none;
+  }
+  
+  .github-copilot{
+    color: rgb(153, 153, 153);
+    font-size: 36px;
+  }
+  strong{
+  color: white;
+  }
+  .didyouknowgrid{
+    margin:0 0 20px 0;
+    padding:0;
+  }
+  
+ 
+  
+  
+  
+  
+  
